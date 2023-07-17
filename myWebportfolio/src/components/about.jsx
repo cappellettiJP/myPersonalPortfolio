@@ -11,7 +11,7 @@ const About = () => {
             <div>
             <div className={styles.aboutcontent}>
                 <h2 className={styles.heading}>About <span>Me</span></h2>
-                <h3>Frontend Developer</h3>
+                <h3>Frontend Developer!</h3>
                 <h3>Integrador de Sistemas de Seguridad</h3>
                 <p>Mi nombre es Juan Pablo actualmente me encuentro cursando una carrera en desarrollo
                     Web FullStack, lo que me ha permitido adquirir Soft y HardSkills en el ámbito de la programación.<br></br>

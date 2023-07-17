@@ -33,3 +33,7 @@
 .contact form textarea {
     resize: none;
 }
+
+.contact form input[type="submit"] {
+    margin-top: 2rem;
+}
