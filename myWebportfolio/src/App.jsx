@@ -4,6 +4,7 @@ import Header from './components/header'
 import Home from './components/home'
 import Services from './components/services'
 import Portfolio from './components/portfolio'
+import Formulario from './components/form'
 
 function App() {
   
@@ -16,7 +17,7 @@ function App() {
     <About></About>
     <Services></Services>
     <Portfolio></Portfolio>
-  
+    <Formulario></Formulario>
     </>
   )
 }
