@@ -1,0 +1,10 @@
+#detail {
+    padding: 2rem 4rem;
+    width: 100%;
+}
+
+.detail .loading {
+    opacity: 0.25;
+    transition: opacity 200000ms;
+    transition-delay: 200000ms;
+}

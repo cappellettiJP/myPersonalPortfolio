@@ -8,11 +8,43 @@ const Header = () => {
     <header className={styles.header} id='header'>
         <a href='#' className={styles.logo}>My Portfolio</a>
         <nav className={styles.navbar}>
-            <NavLink to='/home' className={({ isActive }) => (isActive ? styles.active : '')}>Home</NavLink>
-            <NavLink to='/about' className={({ isActive }) => (isActive ? styles.active : '')}>About</NavLink>
-            <NavLink to='/services' className={({ isActive }) => (isActive ? styles.active : '')}>Services</NavLink>
-            <NavLink to='/portfolio' className={({ isActive }) => (isActive ? styles.active : '')}>Portfolio</NavLink>
-            <NavLink to='/contact' className={({ isActive }) => (isActive ? styles.active : '')}>Contact</NavLink>
+            <NavLink 
+            to='/home' 
+            className={({ isActive, isPending }) => 
+            isActive 
+            ? styles.active 
+            : isPending 
+            ? styles.pending 
+            : ''
+            }>Home</NavLink>
+            <NavLink to='/about' className={({ isActive, isPending }) => 
+            isActive 
+            ? styles.active 
+            : isPending 
+            ? styles.pending 
+            : ''
+            }>About</NavLink>
+            <NavLink to='/services' className={({ isActive, isPending }) => 
+            isActive 
+            ? styles.active 
+            : isPending 
+            ? styles.pending 
+            : ''
+            }>Services</NavLink>
+            <NavLink to='/portfolio' className={({ isActive, isPending }) => 
+            isActive 
+            ? styles.active 
+            : isPending 
+            ? styles.pending 
+            : ''
+            }>Portfolio</NavLink>
+            <NavLink to='/contact' className={({ isActive, isPending }) => 
+            isActive 
+            ? styles.active 
+            : isPending 
+            ? styles.pending 
+            : ''
+            }>Contact</NavLink>
         </nav>
     </header>
     )
