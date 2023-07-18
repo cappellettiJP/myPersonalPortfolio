@@ -25,7 +25,10 @@
     transition: 400ms;
 }
 
-.navbar a:hover,
-.navbar a.active {
+.navbar a:hover{
     color : var(--main-color);
+}
+
+nav a.active {
+    color: var(--main-color);
 }

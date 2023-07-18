@@ -6,7 +6,8 @@ import { FacebookOutlined, InstagramOutlined, LinkedinOutlined, WhatsAppOutlined
 
 const Home = () => {
 
-    return (<div>
+    return (
+    <div>
         <section className={styles.home} id='home'>
         <div className={styles.homecontent}>
             <h3>Hello, Its Me</h3>
